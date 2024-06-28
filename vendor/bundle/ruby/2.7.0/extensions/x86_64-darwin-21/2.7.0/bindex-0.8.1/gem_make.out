@@ -1,0 +1,17 @@
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/tsuboiri/.rbenv/versions/2.7.7/bin/ruby -I /Users/tsuboiri/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20240628-4776-1wqaa4d.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20240628-4776-eix9sh/skiptrace/internal

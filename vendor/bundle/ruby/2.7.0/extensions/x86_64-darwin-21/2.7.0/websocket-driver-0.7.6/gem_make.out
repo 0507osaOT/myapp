@@ -1,0 +1,17 @@
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/tsuboiri/.rbenv/versions/2.7.7/bin/ruby -I /Users/tsuboiri/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20240628-4776-vrg5hb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20240628-4776-12qne47

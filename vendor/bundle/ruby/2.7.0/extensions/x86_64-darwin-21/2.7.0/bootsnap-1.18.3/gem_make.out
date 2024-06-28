@@ -1,0 +1,21 @@
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.3/ext/bootsnap
+/Users/tsuboiri/.rbenv/versions/2.7.7/bin/ruby -I /Users/tsuboiri/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20240628-4776-3v6w58.rb extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240628-4776-14fy2mi/bootsnap

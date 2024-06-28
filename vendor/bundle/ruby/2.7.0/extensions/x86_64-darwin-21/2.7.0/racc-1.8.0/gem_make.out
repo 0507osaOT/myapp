@@ -1,0 +1,17 @@
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/tsuboiri/.rbenv/versions/2.7.7/bin/ruby -I /Users/tsuboiri/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20240628-4776-yvonu4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/tsuboiri/ruby/myapp/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240628-4776-if9ryr/racc
